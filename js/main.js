@@ -82,6 +82,7 @@ btn.addEventListener('click', function () {
       currentCards[i].setAttribute('src', 'images/back.png');
     }
     currentCards = [];
+    cardsIdInPlay = [];
   } else {
     return
   }
